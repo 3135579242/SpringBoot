@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://gz-cdb-5wu8ucq1.sql.tencentcdb.com:22081/springbootstudyapi
+    username: root
+    password: rootroot123
+
+#gz-cdb-5wu8ucq1.sql.tencentcdb.com
+#22081
+#root
+#rootroot123

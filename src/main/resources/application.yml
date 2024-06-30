@@ -9,3 +9,8 @@ spring:
 #22081
 #root
 #rootroot123
+
+mybatis-plus:
+  config-location: #classpath*:/mapper/**.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

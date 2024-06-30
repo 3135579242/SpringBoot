@@ -14,7 +14,7 @@ import java.util.List;
  * 测试新项目
  */
 @RestController
-@RequestMapping("/first/api")
+@RequestMapping("/api/first")
 public class FirstController {
 
     private FirstMapper firstMapper;
@@ -33,6 +33,28 @@ public class FirstController {
     public String firstString() {
         return "成功";
     }
+
+    /**
+     * 测试
+     *
+     * @return
+     */
+    @GetMapping("/RoleUSER")
+    public String firstUser() {
+        return "Role USER";
+    }
+
+
+    /**
+     * 测试
+     *
+     * @return
+     */
+    @GetMapping("/RoleAdmin")
+    public String firstAdmin() {
+        return "Role Admin";
+    }
+
 
     /**
      * 连接数据库案例
